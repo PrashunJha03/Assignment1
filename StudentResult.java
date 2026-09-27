@@ -1,9 +1,11 @@
 package Day1;
 import java.util.*;
-public class StudentResult {
+public class StudentResult 
+{
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String[] args) 
+	{
+		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the marks : ");
 		int marks = sc.nextInt();
@@ -11,6 +13,6 @@ public class StudentResult {
 			System.out.println("Passed ");
 		else if (marks < 40)
 			System.out.println("Failed ");
+	
 	}
-
 }
